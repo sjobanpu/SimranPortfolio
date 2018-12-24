@@ -553,12 +553,15 @@ ol {
 	transition: all 0.4s;
 }
 
+
 .main-menu {
 	float: right;
 }
 
 .main-menu ul {
 	list-style: none;
+	padding-right:30px;
+	padding-top:20px;
 }
 
 .main-menu ul li {
@@ -571,7 +574,6 @@ ol {
 	font-size: 14px;
 	color:#808080;
 	padding: 15px;
-	margin-right: 10px;
 	position: relative;
 }
 
@@ -753,6 +755,15 @@ ol {
 /*---------------------
 	Portfolio section
 -----------------------*/
+
+#projectname{
+	font-size:25px;
+}
+
+#projectype{
+	font-size: 25px;
+}
+
 .portfolio-warp {
 	position: relative;
 	display: block;
@@ -773,7 +784,7 @@ ol {
 }
 
 .single-portfolio:hover .portfolio-info {
-	opacity: 1;
+	opacity:1;
 }
 
 .portfolio-info {
@@ -801,8 +812,8 @@ ol {
 	-webkit-transform: scale(1.12);
 	    -ms-transform: scale(1.12);
 	        transform: scale(1.12);
-	-webkit-filter: blur(20px);
-	        filter: blur(20px);
+	-webkit-filter:blur(30px);
+	        filter: blur(30px);
 	background-position: center center;
 }
 
@@ -840,31 +851,6 @@ ol {
 	color: #111;
 }
 
-/*---------------------
-	Milestones section
------------------------*/
-.milestones-section {
-	background: #222121;
-}
-
-.milestones-section .fact-box .fact-content {
-	text-align: center;
-	position: relative;
-}
-
-.milestones-section .fact-box .fact-content:after {
-	background: #6f6e6e;
-}
-
-.milestones-section .fact-box .fact-content i,
-.milestones-section .fact-box .fact-content h2,
-.milestones-section .fact-box .fact-content p {
-	color: #fff;
-}
-
-.milestones-section .fact-box:last-child .fact-content:after {
-	display: none;
-}
 
 /*---------------------
 	Contact section
@@ -1431,7 +1417,9 @@ ol {
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.site-logo {
+		position:relative;
 		padding-top: 0;
+		padding-left:20px;
 	}
 	.search-top {
 		padding: 8px;
@@ -1439,7 +1427,7 @@ ol {
 	}
 	.main-menu ul li a {
 		padding: 10px;
-		margin-right: 5px;
+		margin-right: 10px;
 	}
 	.hero-slider .owl-nav {
 		right: 50px;
@@ -1536,7 +1524,6 @@ ol {
 	.main-menu ul li a {
 		display: block;
 		padding: 15px;
-		margin-right: 0;
 		border-bottom: 1px solid #292929;
 	}
 	.main-menu ul li a:after {
