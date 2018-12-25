@@ -22,7 +22,6 @@ h4,
 h5,
 h6 {
 	color: #222121;
-	margin: 0;
 	font-weight: 600;
 	font-family: 'Thasadith', sans-serif;
 }
@@ -737,7 +736,7 @@ ol {
 .intro-img{
 	position:relative;
 	padding-right:20px;
-	padding-top:150px;
+	padding-top:60px;
 }
 
 #paragraph{
@@ -1203,7 +1202,6 @@ ol {
 
 .post-date-warp .post-date-box h3 {
 	letter-spacing: 2px;
-	margin-bottom: 5px;
 }
 
 .post-date-warp .post-date-box p {
@@ -1313,12 +1311,113 @@ ol {
 
 /*UCRE PAGE*/
 .solution{
+	position:relative;
 	margin:auto;
 
 }
 
+.sp-title{
+	max-height:10px;
+	position:relative;
+	margin-top:50px;
+	margin-left:100px;
+}
 
+.sp-sub-title{
+	max-height:10px;
+	color:black;
+	position:relative;
+	margin-left:100px;
+}
 
+.describe{
+	width:815px;
+	position:relative;
+	margin-left:100px;
+	font:'Thasadith', sans-serif;
+}
+
+.problemspace{
+	position:relative;
+	margin-top:30px;
+	margin-left:220px;
+}
+
+.caption{
+	position:relative;
+	margin-left:220px;
+	max-width:815px;
+}
+
+.analysis{
+	position:relative;
+	margin-top:40px;
+	font:'Thasadith', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+	letter-spacing: 6px;
+	margin-left:220px;
+	max-height: 10px;
+}
+
+.final{
+	position:relative;
+	margin-left:220px;
+	border-color:#d3d3d3;
+	border-width:3px;
+	border-style:solid;
+	max-width:850px;
+	margin-top:50px;
+}
+
+.budget{
+	position:relative;
+	margin-left:220px;
+}
+
+.mini{
+	color:black;
+	font-size: 12px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	max-height:30px;
+	position:relative;
+	margin-left:220px;
+}
+
+.competitive{
+	position:relative;
+	margin-left:220px;
+}
+
+.poster{
+	position:relative;
+	margin-left:220px;
+}
+
+.extensions{
+	position:relative;
+	margin-top:50px;
+	margin-left:220px;
+}
+
+.cabinet{
+	position:relative;
+	margin-left:220px;
+}
+
+.process{
+	position:relative;
+	margin-left:220px;
+	margin-top:30px;
+}
+
+#negotiate{
+	position:relative;
+	margin-left:220px;
+}
 
 /*---------------------
 	Responsive
@@ -1622,6 +1721,7 @@ ol {
 	}
 	.work-slider .ws-item {
 		height: 400px;
+		max-width:850px;
 	}
 	.blog-thumb {
 		height: 400px;
